@@ -155,3 +155,47 @@ select {
     background: white;
     color: rgb(255, 200, 0);
 }
+
+
+
+.links{
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-social-media {
+    align-items: center;
+    margin-top: 100px;
+    padding: 5px;
+    cursor: pointer !important;
+    transition: 300ms all ease-in-out;
+    position: relative;
+    height: 50px;
+    width: 50px;
+  }
+  
+.icons-social-media:hover {
+    translate: -0px -10px;
+  }
+  
+#instagram,
+    #youtube,#twitch {
+    transition: 300ms all ease-in-out;
+    clip-path: circle(65%);
+  }
+  
+#instagram:hover {
+    background-color: rgb(221, 157, 189);
+  }
+  
+  
+#youtube:hover {
+    background-color: rgb(241, 96, 96);
+  }
+  
+#twitch:hover {
+    background-color: rgb(196, 143, 245);
+  }
+
